@@ -11,7 +11,7 @@ Test normal matrix:
     >>> matrix_divided([[2, 4, 8], [1, 2, 3]], 2)
     [[1.0, 2.0, 4.0], [0.5, 1.0, 1.5]]
 
-Test one el:
+Test one ele:
     >>> matrix_divided([[2]], 2)
     [[1.0]]
 

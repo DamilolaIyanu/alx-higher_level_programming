@@ -8,25 +8,25 @@ Import function from module:
 
     >>> add_integer = __import__('0-add_integer').add_integer
 
-Test one int argument:
-
-    >>> add_integer(2)
-    100
-
 Test one int argument and check default second:
 
     >>> add_integer(0)
     98
 
-Test one float:
+Test one int argument:
 
-    >>> add_integer(123.9)
-    221
+    >>> add_integer(2)
+    100
 
 Test one negative float:
 
     >>> add_integer(-95.5)
     3
+
+Test one float:
+
+    >>> add_integer(123.9)
+    221
 
 Test two integers:
 
@@ -53,15 +53,15 @@ Test an integer and a float:
     >>> add_integer(123, 7.987)
     130
 
-Test a float and an integer:
-
-    >>> add_integer(234234.43545, 4352345)
-    4586579
-
 Test two floats:
 
     >>> add_integer(0.9, 0.9)
     0
+
+Test a float and an integer:
+
+    >>> add_integer(234234.43545, 4352345)
+    4586579
 
 Add infinity:
 
