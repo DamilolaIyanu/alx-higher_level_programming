@@ -8,7 +8,7 @@ def say_my_name(first_name, last_name=""):
         first_name: the firstname
         last_name: the last name
     Raises:
-        TypeError: if first_name or last_name  is not string
+        TypeError: if first_name or last_name is not string
     """
     if not isinstance(first_name, str):
         raise TypeError("first_name must be a string")
