@@ -13,5 +13,5 @@ def append_after(filename="", search_string="", new_string=""):
             llist.append(line)
             if search_string in line:
                 llist.append(new_string)
-    with open(filenamen, "w", encoding="utf-8") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.writelines(llist)
