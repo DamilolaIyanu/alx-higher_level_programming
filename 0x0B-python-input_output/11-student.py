@@ -22,6 +22,7 @@ class Student:
             if key in attrs:
                 ddict[key] = value
         return ddict
+
     def reload_from_json(self, json):
         """replaces the attributes of student"""
         for key, value in json.items():
